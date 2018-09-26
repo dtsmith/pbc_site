@@ -1,0 +1,419 @@
+/* Custom CSS for Parkway Baptist Church website */
+
+body {
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #E8EBED;
+    color:#323D4C;
+    position:relative;
+    font-weight:300;
+}
+
+p {
+    margin-top:0;
+    padding:0;
+    font-size:20px;
+}
+
+a {
+  color: #E6420E;
+  font-weight:700;
+}
+
+a:hover,
+a:focus {
+  color: #AE300A;
+  text-decoration: none;
+  transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+}
+
+.marginreset {
+    margin:0;
+    padding:0;
+}
+
+.brand {
+	font:0/0 a;
+	margin:0 auto;
+    width:100%;
+    height:100%;
+	text-align: center;
+    background: -webkit-radial-gradient(#404f63, #323d4c); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#404f63, #323d4c); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#404f63, #323d4c); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#404f63, #323d4c); /* Standard syntax */
+	background-color: #323d4c;
+    /*background-image: url('../images/parkway-logo-bg-lrg-lightgray.png');*/
+    background-repeat:no-repeat;
+    background-position: bottom;
+    opacity:1;
+    border-bottom:1px solid #f2f2f2;
+}
+
+.logo, .logo-center {
+	display: inline-block;
+  	vertical-align: middle;
+  	height: 100%;
+}
+
+.logo img {
+	display: inline-block;
+	vertical-align: middle;
+	padding:20px;
+	max-width:100%;
+	max-height:100%;
+}
+
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+	display:none;
+	/* font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing:1px; */
+}
+
+.navbar-nav {
+    font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+    font-weight: 300;
+    font-size:18px;
+    letter-spacing: 1px;
+    text-transform: normal;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color:#384556;
+    font-weight:normal;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color:#596C88;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #f5f6f7;
+}
+
+/* Everything but phones */
+@media(min-width:768px){
+    .navbar {
+        border-radius: 0;
+        min-height:0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+    
+    .nav>li>a {
+        padding: 25px 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+section {
+    padding:75px 0;
+}
+
+.content-section-a {
+    background-color: #f5f6f7;
+}
+
+.content-section-b {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+    font-weight:700;
+    color:#323D4C;
+    margin-top:0px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.section-heading u {
+    text-decoration: none;
+}
+
+.section-heading-spacer {
+    width: 100%;
+    border-top: 2px solid #444;
+}
+
+.lead {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top:20px;
+}
+
+.aboutus-row {
+    margin-bottom:45px;
+}
+
+.aboutus-subhead {
+    margin-top:21px;
+    padding-bottom:0px;
+    border-bottom:0px;
+}
+
+.aboutus-para {
+    background-color: #f8f8f8;
+    border-radius:6px;
+    border:1px solid #e7e7e7;
+}
+
+.aboutus-para p {
+    font-size:18px;
+}
+
+.aboutus-para ul li {
+    font-size: 18px;
+}
+
+.aboutus-image {
+    margin-top:53px;
+    width:auto;
+    height:350px;
+}
+.aboutus-caption {
+    font-size:13px;
+    font-weight:500;
+    line-height:1.65;
+    color:#555;
+    margin:1em auto 0;
+    padding:0;
+    text-align:center;
+}
+
+.map {
+    margin:15px 0 0 0;
+}
+
+.contact-details {
+    font-size:20px;
+    font-weight:300;
+    margin:0;
+    padding:0;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #323d4c;
+    /*background-image: url('../images/parkway-logo-bg-lrg-dark.png');
+    background-repeat:no-repeat;
+    background-position: center;*/
+    border-top: 2px solid #E8EBED;
+}
+
+footer p {
+    font-size:12px;
+    font-weight:600;
+    line-height:1.65;
+    background-color:#fff;
+    margin:0px;
+    padding:5px;
+    display:inline-block;
+    border-radius:6px;
+    opacity: 0.9;
+}
+
+footer p.byline {
+    font-size:12px;
+    font-weight:800;
+    line-height:1.65;
+    color:#fff;
+    background-color:transparent;
+    padding:3px 5px 5px;
+    display: block;
+    position:absolute;
+    top:40px;
+}
+
+footer a {
+    color:inherit;
+}
+
+/* Social Icons - Contact */
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 10px 5px 30px 0px;
+    opacity:1;
+}
+
+.social ul li {
+    margin: 5px 5px 5px 0px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color:#323D4C;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    opacity: 0.85;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    opacity:1;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-envelope:hover { /* round mail icon*/
+    background: #444;
+}
+
+.social .fa-facebook:hover { /* round facebook icon*/
+    background: #4060A5;
+}
+
+.social .fa-twitter:hover { /* round twitter icon*/
+    background: #00ABE3;
+}
+
+.social .fa-youtube:hover { /* round youtube icon*/
+    background: #FF1F25;
+}
+
+#scroll-top {
+    width:70px;
+    height: 40px;
+    color:#A4AFB7;
+    text-align: center;
+    position: fixed;
+    right:15px;
+    bottom:25px;
+    z-index: 9999;
+    cursor: pointer;
+    display:none;
+}
+
+#scroll-top p {
+    font-size:10px;
+    font-weight:600;
+    text-transform: uppercase;
+    margin:0 auto;
+}
+
+
+/* Extra Small Devices - Phones */
+@media(max-width:767px){
+    .aboutus-row {
+        margin-bottom: 15px;
+    }
+    
+    .section-heading {
+        margin-bottom:10px;
+    }
+    
+    form {
+        border-top:1px solid #C6CDD2;
+        padding-top:30px;
+    }
+    
+    .pad-top-xs {
+        margin-top:25px;
+    }
+
+    footer p {
+        margin: 0 auto;
+    }
+}
+
+/* Small */
+@media (min-width:768px) and (max-width:991px) {
+    .aboutus-row {
+        margin-bottom: 30px;
+    }
+    .map {
+        margin:15px 0;
+    }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {
+    .container {
+        width: 960px;
+    }
+    .aboutus-row {
+        margin-bottom: 30px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+}
+
